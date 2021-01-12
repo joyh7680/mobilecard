@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>레스토랑 오늘</title>
+
+   <style>
+
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+
+      body { font-family: 'Montserrat'; font-size: 16px; line-height: 1.5; color:rgb(34,34,34); font-weight: 200; letter-spacing: -0.45px; } 
+
+      a { text-decoration: none;}
+      a:hover { color:rgb(194,122,52);}
+      .fs_22 { font-size: 22px;}
+      .fs_18 { font-size: 18px;}
+      .fs_20 { font-size: 20px;}
+
+      h1 { font-family: 'Montaga'; font-size: 96px; font-weight: 400;  letter-spacing: -1.92px; line-height: 1; color:white; }
+
+      h1 { font-family: 'Montaga', 'serif'; font-size: 96px; font-weight: 400;  letter-spacing: -1.5px; line-height: 1; color:black;}
+
+
+      h3 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; font-size: 22px; font-weight: 100; }
+
+      h4 { font-family: 'Montaga'; font-size: 22px; font-weight: 100; font-weight: 400; }
+
+      h5 { color: rgb(194, 122, 52);  display: block; font-family: Montserrat, "Noto Sans Korean", sans-serif;   font-size: 16px;   font-weight: 400;       height: 19px; letter-spacing: 4.8px;
+      line-height: 19.2px;}
+            
+          
+ 
+      
+            
+            
+
+      p { font-family: 'Montserrat', sans-serif; font-size: 16px; }
+
+      div { background-size: cover; background-repeat: no-repeat; background-position: center center; }
+
+
+
+      /* Header 부분 */
+
+      .gnb_wrap { width:100%; height:130px; background-color:rgba(255,255,255,0.8); display: flex; justify-content: space-between; padding:0 2.5%; align-items: center; position: fixed; top:0px; left:0px; z-index: 10000;}
+      
+      .gnb_menu_a { padding: 0 43px; height: 100%; font-family: 'Montserrat'; font-size: 22px; letter-spacing: -0.55px; color:black; line-height: 22px; font-weight: 400;}
+      
+      .gnb_logo_img { width: 127.5px;}
+      .gnb_hiddenmenu {width: 127.5px; text-align: right;}
+
+      /* Hero 부분 */
+
+      .hero_wrap { width: 100%; height: 100vh; background-image: url(img/visual01.jpg); display: flex; justify-content: center; align-items: center;
+      position: relative;
+       }
+      .hero_title { text-align: center; color:white;}
+
+      .margin_b_20 { margin-bottom: 20px;}
+      .margin_b_10 { margin-bottom: 10px;}
+
+      .hero_reservation { width: 230px; height:70px; border:1px solid white; color:white; display: flex; 
+      justify-content: center; align-items: center;
+      position: absolute; top:180px; right:150px;}
+      .hero_reservation_img { width: 24px; margin: 0 20px 0 0; color:white; fill:white;}
+      .hero_reservation_a {color:white;}
+/* 
+      /main info / 부분 */
+
+
+   </style>
+
+</head>
+<body>
+   <header>
+
+      <!-- 데스크탑 화면 GNB -->
+      <div class="gnb_wrap">
+
+         <!-- gnb 메뉴 부분 -->
+         <div class="gnb_logo"> 
+            <img src="img/logo.png" alt="레스토랑 오늘 로고" class="gnb_logo_img">
+         </div>
+
+         <!-- gnb 메뉴 부분 -->
+         <div class="gnb_menu"> 
+            <a href="#" class="gnb_menu_a">o'neul</a>
+            <a href="#" class="gnb_menu_a">Menu</a>
+            <a href="#" class="gnb_menu_a">People</a>
+            <a href="#" class="gnb_menu_a">Room</a>
+            <a href="#" class="gnb_menu_a">Social</a>
+            <a href="#" class="gnb_menu_a">Resevation</a>
+         </div>
+
+         <!-- gnb 히든 메뉴 부분 -->
+         <div class="gnb_hiddenmenu">
+            <img src="img/icon_menu.png" class="gnb_hiddenmenu_btn" alt="히든 메뉴 버튼">
+         </div>
+      </div>
+
+
+
+   </header>
+
+   <main>
+
+      <!-- Hero -->
+      <div class="hero_wrap">
+
+         <!-- Hero 타이틀 부분 -->
+         <div class="hero_title">
+            <h1 class="margin_b_20">Restraurant o'neul</h1>
+            <h3 class="margin_b_10">가장 풍요롭고 생생한 시간, 오늘을 주제로 한 전통 한식 다이닝</h3>
+            <p>Restaurant o’neul is a Korean dining inspired by the most fulfilling and vivid time, ‘today’.</p>
+         </div>
+         <!-- Hero 예약 부분 -->
+         <div class="hero_reservation">
+               <img src="img/calendar-alt-regular.svg" class="hero_reservation_img">
+               <h4><a href="#" class="hero_reservation_a">Reservation</a></h4>
+         </div>
+      </div>
+
+      <!-- main info -->
+
+<div class=" main_info_wrap" > 
+   <div class="main_info"> 
+      <div class="main_info_text">  
+         <h5> Restaurant o’neul </h5> 
+         <h2> o’neul Value </h2> 
+         <p> 레스토랑 오늘에서 선보이는 우리 음식은 <br>
+         한국인의 정체성을 담고 있는 한식에 기반을 두고 있으며,<br>
+         우리 식 문화의 정통성을 지켜나가고 발전시켜 나가기 위해<br>
+         레스토랑 오늘만의 스타일로 재해석 한 메뉴를 제공합니다. </p> 
+         <p> o’neul’s dishes are inspired by Korean traditions and techniques. <br>
+         Here we offer our unique understanding of authentic Korean cuisine, <br>
+         introducing its true values through each menu.  </p> 
+      </div> 
+      <div class="main_info_img">  
+         <img src="img/mi_img01.jpg">
+      </div >
+   </div >
+</div >
+
+   </main>
+
+
+   <footer>사이트 주소, 연락처</footer>
+</body>
+</html>
