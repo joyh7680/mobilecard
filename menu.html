@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>o'neul menu page</title>
+   <style> 
+
+      * {margin: 0px; padding: 0px; box-sizing: border-box;}
+      .c_point {color:rgb(194,122,52); }
+
+      ul,ol,dl {list-style: none;}  
+
+       div, ul, li{background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+       .text_center {text-align: center;}
+
+      .margin_b_50 {margin-bottom: 50px;}
+
+      h2 { font-family: 'Montaga', serif; font-size: 60px; font-weight: 400;  letter-spacing: -1.5px; line-height: 1; }
+      h5 { font-family: 'Montserrat', 'Noto Sans KR', sans-serif; letter-spacing: 4.8px; line-height:1.2; font-weight: 400; font-size: 16px;  }
+  
+     /* main menu  */
+
+      .main_info_wrap {width:100%; height: auto;  padding: 180px 0 0 0; display: flex; justify-content: center;}
+      .main_menu {width: 1720px; height: auto;}
+      .main_menu_ul {width:100%;  display: flex; }
+      .main_menu_li  {width: 430px; height: 500px; margin: 0 10px; padding: 20px;  color: white; display: flex; flex-direction: column; justify-content: space-between;  }
+      .main_menu_li_title {border-bottom: 1px solid rgba (255,255,255,1); padding: 0 0 20px;}
+      .main_menu_li_menu {border-top: 1px solid rgba (255,255,0.3); padding:(20px 0 ); display: flex;}
+      .main_menu_li_menu div {width: 50%;}
+      .main_menu_li_menu div:nth-child(2) {border-left: 1px solid rgba (255, 255,255,0.3); padding: 0 0 0 30px; }
+    
+       /* css 선택자 사용 */
+  
+       .main_menu_ul_li:nth-child(1) {background-image: url(img/mn_img01.jpg); margin:68px 10px 30px 10px  }
+      .main_menu_ul_li:nth-child(2) {background-image: url(img/mn_img02.jpg)}
+      .main_menu_ul_li:nth-child(3) {background-image: url(img/mn_img03.jpg); margin:68px 10px 30px 10px  }
+      .main_menu_ul_li:nth-child(4) {background-image: url(img/mn_img04.jpg)}
+           /* 왜 사진이 안들어가는걸까여ㅓ,,,, */
+   
+   </style>
+</head>
+
+<body>
+   
+   <!-- main menu -->
+   <div class="main_info_wrap">
+      <div class="main_menu" > 
+         <h5 class="text_center c_point" > Restaurant o'neul</h5>
+                               <!-- c_point 질문하기  -->
+         <h2 class="text_center margin_b_50 " > o'neul menu</h2>
+         <ul class="main_menu_ul" >
+            <li class="main_menu_li">
+               <div class="main_menu_li_title">
+                  <span> Luncheon</span>
+                  <span> + </span>  
+               </div>
+             
+               <div class="main_menu_li_menu"> 
+                  <div > 
+                     <p> 오늘 오찬(제주)</p> 
+                     <P> 55,000 KRW </P>
+                  </div>
+                  <div>
+                     <P> 겨울 오찬(제주)</P>
+                     <P> 68,000 KRW</P>
+                  </div>
+               </div>
+            </li>
+            <li class="main_menu_li">
+               <div class="main_menu_li_title">
+                  <span> Dinner </span>
+                  <span> <img 플러스>   </span>  
+               </div>
+              
+           
+
+               <div class="main_menu_li_menu">  
+                  <div> 
+                     <p> 제주 겨울 한상</p> 
+                     <P> 150,000 KRW </P>
+                  </div>
+                  <div>
+                     <P> 오늘 겨울 한상</P>
+                     <P>150,000 KRW</P>
+                  </div>
+               </div>
+            </li>
+            <li  class="main_menu_li">
+               <div class="main_menu_li_title">
+                  <span>Banquet/Party</span>
+                  <span> + </span>  
+               </div>
+              
+            
+
+               <div class="main_menu_li_menu">  
+                  <div> 
+                     <p> 맞춤 메뉴(Upon request)</p> 
+                     <P> 100,000 KRW~ </P>
+                  </div>
+               </div>
+            </li>
+            <li class="main_menu_li">
+               <div class="main_menu_li_title">
+                  <span>Signature wine/liquor</span>
+                  <span> +   </span>  
+               </div>
+              
+               <div class="main_menu_li_menu"> 
+                  <div> 
+                     <p> Champaign/
+                        White/Red</p> 
+                     <P> 95,000 KRW ~ </P>
+                  </div>
+                  <div>
+                     <P> Korean Traditional
+                        Liquor Pairing
+                     </P>
+                     <P> 70,000 KRW</P>
+                  </div>
+               </div>
+            </li>
+         </ul>
+      </div>
+   </div>
+
+ 
+
+</body>
+</html>
